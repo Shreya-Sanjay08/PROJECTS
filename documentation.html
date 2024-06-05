@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="documentation.css"
+</head>
+
+<body>
+  <main id="main-doc">
+    <div class="nav">
+    <nav id="navbar">
+        <header>
+          PYTHON:
+           SYNTAX AND SEMANTICS 
+        </header>
+        <ul>
+          <li><a class="nav-link" href="#INTRODUCTION">INTRODUCTION</a></li>
+<br>
+          <li><a class="nav-link" href="#KEYWORDS">KEYWORDS</a></li>
+<br>
+          <li><a class="nav-link" href="#INDENTATION">INDENTATION</a></li>
+<br>
+          <li><a class="nav-link" href="#DATA_TYPES">DATA TYPES</a></li>
+<br>
+          <li><a class="nav-link" href="#OPERATORS">OPERATORS</a></li>
+          </ul>
+      </nav>
+      </div>
+      <div class="main-stuff">
+    <section class="main-section" id="INTRODUCTION">
+      <header>INTRODUCTION</header>
+      <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+      <p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.</p>
+      <p>It is often described as a "batteries included" language due to its comprehensive standard library. </p>
+      <p>Python consistently ranks as one of the most popular programming languages, and has gained widespread use in the machine learning community.</p>
+    </section>
+    <section class="main-section" id="KEYWORDS">
+      <header>KEYWORDS</header>
+      <p>Python has a set of keywords that are reserved words that cannot be used as variable names, function names, or any other identifiers:
+        <ul>
+          <li><code>AND</code></li>
+          <li><code>OR</code></li>
+          <li><code>NOT</code></li>
+          <li><code>IF-ELSE</code></li>
+          <li><code>BREAK</code></li>
+        </ul>
+      </p>
+      <p>Example:<br> 
+      <div class="example">
+      <code>
+        <br>
+        a = 55
+        <br>
+        b = 33 
+        <br>
+        if b > a: 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;print("b is greater than a") 
+            <br>
+        elif a == b: 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;print("a and b are equal") 
+            <br>
+        else: 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;print("a is greater than b")</div>
+        </code></p>
+    </section>
+    <section class="main-section" id="INDENTATION">
+      <header>INDENTATION</header>
+      <p>Python uses whitespace to delimit control flow blocks (following the off-side rule). Python borrows this feature from its predecessor ABC: instead of punctuation or keywords, it uses indentation to indicate the run of a block.</p>
+      <p>In so-called "free-format" languages—that use the block structure derived from ALGOL—blocks of code are set off with braces ({ }) or keywords.</p>
+      <p>In most coding conventions for these languages, programmers conventionally indent the code within a block, to visually set it apart from the surrounding code.</p>
+
+      <p>Example: 
+        <div class="example">
+        <code>
+        <br>
+        def foo(x):
+        <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;if x == 0:
+    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bar()
+        <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;else:
+    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;baz(x)
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foo(x - 1)
+        <br>
+        </div>
+        </code></p>
+    </section>
+    <section class="main-section" id="DATA_TYPES">
+      <header>DATA TYPES</header>
+      <p>Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are classes and variables are instances (objects) of these classes.</p>
+      <p>The following are the standard or built-in data types in Python:</p>
+      <p>
+         <ul>
+          <li>Numeric</li>
+          <li>Dictionary</li>
+          <li>Boolean</li>
+          <li>Lists</li>
+          <li>String</li>
+          </ul>
+      </p>
+      <p></p>
+      <p></p>
+      <p> Example:
+        <div class="example">
+          <code>
+            <br>
+           >>> x = "Hello World" --> #String
+            <br>
+>>> x = 50 --> #Numeric
+<br>
+>>> x = ["geeks", "for", "geeks"] --> #List
+<br>
+>>> x = True --> #Boolean
+<br>
+>>> x = {"name": "Suraj", "age": 24} --> #Dictionary
+          </code>
+          </div>
+        </p>
+    </section>
+    <section class="main-section" id="OPERATORS">
+      <header>OPERATORS</header>
+      <p>In Python programming, Operators in general are used to perform operations on values and variables. These are standard symbols used for the purpose of logical and arithmetic operations.</p>
+      <p>Types of operators include:</p>
+      <p>
+        <ul>
+          <li>Arithmetic</li>
+          <li>Comparison</li>
+          <li>Logical</li>
+          <li>Bitwise</li>
+          </ul>
+      </p>
+
+      <p>Example:
+        <div class="example">
+          <code>
+            <br>
+            >>> print(5*5) 
+             <br>
+>>> print(10/2) 
+ <br>
+>>> print(-10>2) 
+ <br>
+>>> print(20.0==2)
+ <br>
+          </code>
+        </div>
+      </p>
+    </section>
+    
+
+</div>
+  </main>
+
+</body>
+</html>

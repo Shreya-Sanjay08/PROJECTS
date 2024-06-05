@@ -1,0 +1,48 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body{
+    background-color: rgb(240, 225, 238);
+  }
+
+ header{
+   font-weight: bold;
+   background-color: rgb(215, 180, 200);
+   border-bottom: 2px solid black;
+ } 
+
+ .example{
+   background-color: rgb(215, 178, 212);
+   border: 2px solid rgb(243, 211, 240);
+   border-radius: 5px;
+   padding: 20px;
+   padding-top: 0px;
+ }
+
+ nav{
+   font-size: 17px;
+ }
+
+html{
+   box-sizing: border-box
+ }
+
+
+.nav{
+  height: 100%; 
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #111; 
+  padding-top: 60px;
+ }
+
+
+ .main-stuff{
+padding-left: 190px;
+border:1px solid black;
+ }
